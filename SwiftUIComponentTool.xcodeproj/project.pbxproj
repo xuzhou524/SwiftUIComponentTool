@@ -17,6 +17,11 @@
 		1614D61926C3A87A00CBEF70 /* Swiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614D61826C3A87A00CBEF70 /* Swiper.swift */; };
 		1614D61B26C3B4F400CBEF70 /* SwiperControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614D61A26C3B4F400CBEF70 /* SwiperControl.swift */; };
 		1614D61D26C3B75900CBEF70 /* SwiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614D61C26C3B75900CBEF70 /* SwiperView.swift */; };
+		16C2CA5B26C4BD7300AC1820 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2CA5A26C4BD7300AC1820 /* ArticleListView.swift */; };
+		16C2CA5D26C4F57B00AC1820 /* XZAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2CA5C26C4F57B00AC1820 /* XZAsyncImage.swift */; };
+		16C2CA5F26C5088E00AC1820 /* SizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2CA5E26C5088E00AC1820 /* SizePreferenceKey.swift */; };
+		16C2CA6126C50CE500AC1820 /* XZRoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2CA6026C50CE500AC1820 /* XZRoundedCorners.swift */; };
+		16C2CA6326C5126C00AC1820 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2CA6226C5126C00AC1820 /* NetworkRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		1614D61826C3A87A00CBEF70 /* Swiper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiper.swift; sourceTree = "<group>"; };
 		1614D61A26C3B4F400CBEF70 /* SwiperControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiperControl.swift; sourceTree = "<group>"; };
 		1614D61C26C3B75900CBEF70 /* SwiperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiperView.swift; sourceTree = "<group>"; };
+		16C2CA5A26C4BD7300AC1820 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		16C2CA5C26C4F57B00AC1820 /* XZAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZAsyncImage.swift; sourceTree = "<group>"; };
+		16C2CA5E26C5088E00AC1820 /* SizePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceKey.swift; sourceTree = "<group>"; };
+		16C2CA6026C50CE500AC1820 /* XZRoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZRoundedCorners.swift; sourceTree = "<group>"; };
+		16C2CA6226C5126C00AC1820 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +156,11 @@
 				1614D61826C3A87A00CBEF70 /* Swiper.swift */,
 				1614D61A26C3B4F400CBEF70 /* SwiperControl.swift */,
 				1614D61C26C3B75900CBEF70 /* SwiperView.swift */,
+				16C2CA5A26C4BD7300AC1820 /* ArticleListView.swift */,
+				16C2CA5C26C4F57B00AC1820 /* XZAsyncImage.swift */,
+				16C2CA5E26C5088E00AC1820 /* SizePreferenceKey.swift */,
+				16C2CA6026C50CE500AC1820 /* XZRoundedCorners.swift */,
+				16C2CA6226C5126C00AC1820 /* NetworkRequest.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,10 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C2CA6126C50CE500AC1820 /* XZRoundedCorners.swift in Sources */,
 				16059A3826C279A100F7CBE0 /* ContentView.swift in Sources */,
+				16C2CA5B26C4BD7300AC1820 /* ArticleListView.swift in Sources */,
+				16C2CA5F26C5088E00AC1820 /* SizePreferenceKey.swift in Sources */,
 				1614D61926C3A87A00CBEF70 /* Swiper.swift in Sources */,
 				1614D61B26C3B4F400CBEF70 /* SwiperControl.swift in Sources */,
+				16C2CA5D26C4F57B00AC1820 /* XZAsyncImage.swift in Sources */,
 				16059A3626C279A100F7CBE0 /* SwiftUIComponentToolApp.swift in Sources */,
+				16C2CA6326C5126C00AC1820 /* NetworkRequest.swift in Sources */,
 				1614D61D26C3B75900CBEF70 /* SwiperView.swift in Sources */,
 				16059A6126C27A5800F7CBE0 /* XZTabbarPageView.swift in Sources */,
 			);

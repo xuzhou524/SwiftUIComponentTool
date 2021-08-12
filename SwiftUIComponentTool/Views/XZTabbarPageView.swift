@@ -83,7 +83,7 @@ struct XZTabbarPageSubview: View {
                         .onTapGesture {
                             selectedIndex = item.index
                             
-                            //计算剩余客滚动宽度
+                            //计算剩余可滚动宽度
                             let surplusW = (CGFloat(items.count) - CGFloat(selectedIndex)) * itemWidth
                             let halfOfWidth = width / 2
                             
